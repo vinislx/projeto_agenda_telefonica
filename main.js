@@ -17,6 +17,4 @@ form.addEventListener('submit', function(e) {
     const corpoTabela = document.querySelector('tbody');
     corpoTabela.innerHTML = linhas;
 
-    alert(`O número foi agendado ${inputNomeAgenda.value} ${inputNumeroTelefone.value} `);
-
 });
