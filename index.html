@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header><!-- cabeçalho da pagina -->
+            <img src="./telefone.png.png" alt="imagem-telefone">
+            <h1>Agenda de telefone</h1>
+        </header>
+        <form id="form-telefone"><!-- formulario  -->
+            <input type="text" id="nome-agenda" placeholder="Nome" />
+            <input type="text" id="numero-telefone" placeholder="Número" min="11" />
+            <button type="submit">Cadastra</button>
+        </form>
+        <table cellspacing="0"> <!-- tabela e junção da linha -->
+            <thead>
+                <tr><!-- cabeçalho da tabela -->
+                    <th><!-- coluna da tabela  -->
+                        Telefones Agendado
+                    </th>
+                    <th><!-- coluna da tabela  -->
+                        Número
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!-- linha da tabela -->
+                    <td><!-- conteúdo da tabela - 1 coluna -->
+                        ---
+                    </td>
+                    <td><!-- conteúdo da tabela - 2 coluna -->
+                        ---
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js  "></script>
+</body>
+</html>
